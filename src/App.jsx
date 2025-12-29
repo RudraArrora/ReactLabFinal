@@ -5,7 +5,7 @@ import UseEffectLab from "./labs/UseEffectLab";
 import UseRefLab from "./labs/UseRefLab";
 import UseIdLab from "./labs/UseIdLab";
 import UseMemoLab from "./labs/UseMemoLab";
-import UseCallbackLab from "./labs/UseCallBackLab";
+import UseCallbackLab from "./labs/UseCallbackLab.jsx";
 import UseContextLab from "./labs/UseContextLab";
 import UseReducerLab from "./labs/UseReducerLab";
 import UseToogleLab from "./labs/UseToogleLab"
