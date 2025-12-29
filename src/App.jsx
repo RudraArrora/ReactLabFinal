@@ -8,6 +8,10 @@ import UseMemoLab from "./labs/UseMemoLab";
 import UseCallbackLab from "./labs/UseCallBackLab";
 import UseContextLab from "./labs/UseContextLab";
 import UseReducerLab from "./labs/UseReducerLab";
+import UseToogleLab from "./labs/UseToogleLab"
+import UseInputLab  from "./labs/UseInputLab"
+import UseDebouncedLab from "./labs/UseDebouncedLab"
+import  UsePreviousLab from "./labs/UsePreviousLab"
 const LABS = [
   {
     day: "Day 1",
@@ -51,6 +55,30 @@ const LABS = [
     key: "useReducer",
     title: "State Machine",
     Comp: UseReducerLab,
+  },
+  {
+    day: "Day 3",
+    key: "useToggle",
+    title: "Custom Hook: Toggle",
+    Comp: UseToogleLab,
+  },
+  {
+    day: "Day 3",
+    key: "useInput",
+    title: "Custom Hook: Input",
+    Comp: UseInputLab,
+  },
+  {
+    day: "Day 3",
+    key: "useDebounce",
+    title: "Custom Hook: Debounce",
+    Comp: UseDebouncedLab,
+  },
+  {
+    day: "Day 3",
+    key: "usePrevious",
+    title: "Custom Hook: Previous",
+    Comp: UsePreviousLab,
   },
 ];
 
